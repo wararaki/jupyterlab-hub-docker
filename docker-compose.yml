@@ -1,0 +1,7 @@
+version: '3'
+services:
+  cuda:
+    build: .
+    image: jupyterlab-hub-cuda:1.0
+    ports:
+      - "8888:8888"
